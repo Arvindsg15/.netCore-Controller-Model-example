@@ -28,9 +28,11 @@ namespace WebApplication1.Repository
         {
             return new List<BookModel>()
             {
-                new BookModel(){Id=101,Title="MVC",Author="Nitish"},
-                new BookModel(){Id=102,Title="Java",Author="Abhi"},
-                new BookModel(){Id=103,Title="C#",Author="RN Reddy"},
+                new BookModel(){Id=101,Title="MVC",Author="Nitish",Description="This book Contains details about ASP.NET MVC"},
+                new BookModel(){Id=102,Title="Java",Author="Abhi", Description="This book contains details about java"},
+                new BookModel(){Id=103,Title="C#",Author="RN Reddy", Description="This book contains details about C#"},
+                new BookModel(){Id=104,Title="ReactJS",Author="Venkat", Description="This book contains details about React JS"},
+                new BookModel(){Id=105,Title="Azure",Author="RN Reddy", Description="This book contains details about Azure"},
 
             };
         }
